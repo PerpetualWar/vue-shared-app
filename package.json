@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+   "serve:web": "vue-cli-service serve src/web/main.js",
+    "serve:mob": "vue-cli-service serve src/mob/main.js",
+    "build:web": "vue-cli-service build --dest dist_web --report src/web/main.js",
+    "build:mob": "vue-cli-service build --dest dist_mob --report src/mob/main.js",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
