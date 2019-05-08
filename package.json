@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-   "serve:web": "vue-cli-service serve src/web/main.js",
+    "serve:web": "vue-cli-service serve src/web/main.js",
     "serve:mob": "vue-cli-service serve src/mob/main.js",
     "build:web": "vue-cli-service build --dest dist_web --report src/web/main.js",
     "build:mob": "vue-cli-service build --dest dist_mob --report src/mob/main.js",

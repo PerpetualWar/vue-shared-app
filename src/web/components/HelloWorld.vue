@@ -7,6 +7,9 @@
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
         >vue-cli documentation</a
       >.
+      <br>
+
+      {{sharedFunc().toUpperCase()}}
     </p>
     <h3>Installed CLI Plugins</h3>
     <ul>
@@ -111,10 +114,14 @@
 </template>
 
 <script>
+import {sharedFunc} from '../../shared/shared_logic.js'
 export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  methods: {
+    sharedFunc,
   }
 };
 </script>
