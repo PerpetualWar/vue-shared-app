@@ -2,38 +2,25 @@
 
 ## Project setup
 ```
-npm install
+yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads web app for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+yarn serve:web
 ```
 
-### Run your tests
+### Compiles and hot-reloads mobile app for development
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+yarn serve:mob
 ```
 
-### Run your end-to-end tests
+### Compiles and minifies web app for production
 ```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
+yarn build:web
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles and minifies mobile app for production
+```
+yarn build:mob
+```
